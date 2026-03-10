@@ -1,5 +1,8 @@
 name: Nebraska POTA Tracker
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 14 * * *"   # runs daily at 14:00 UTC (~9 AM Nebraska)
