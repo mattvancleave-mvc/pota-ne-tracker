@@ -22,4 +22,6 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run script
-        run: python pota_tracker_2.py
+  env:
+    GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+  run: python pota_tracker_2.py
