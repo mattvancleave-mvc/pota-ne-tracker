@@ -31,10 +31,12 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
         run: python pota_tracker_2.py
           
-      # - name: Commit updated park snapshots
-      #   run: |
-      #     git config --global user.name "pota-bot"
-      #     git config --global user.email "actions@github.com"
-      #     git add pota_data
-      #     git commit -m "Update park snapshots" || echo "No changes"
-      #     git push
+      - name: Commit updated park snapshots
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          git config --global user.name "pota-bot"
+          git config --global user.email "actions@github.com"
+          git add pota_data
+          git commit -m "Update park snapshots" || echo "No changes"
+          git push https://$GH_PAT@github.com/mattvancleave-mvc/pota-ne-tracker.git
