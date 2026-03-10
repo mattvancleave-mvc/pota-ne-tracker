@@ -19,7 +19,7 @@ DATA_DIR = "./pota_data"
 LOG_FILE = os.path.join(DATA_DIR, "change_log.json")
 
 SENDER_EMAIL = "clubfullofpinkponies@gmail.com"
-APP_PASSWORD = "bifk znha xcdc xdhv"
+APP_PASSWORD = os.environ["GMAIL_APP_PASSWORD"]
 RECEIVER_EMAIL = "mattvancleave@gmail.com"
 
 # ── Helpers ───────────────────────────────────────────────
@@ -214,5 +214,6 @@ if __name__ == "__main__":
     subject = f"POTA Nebraska Park Tracker — {datetime.now().strftime('%Y-%m-%d')}"
 
     send_email(subject, email_body)
+
 
     print(email_body)
