@@ -512,9 +512,9 @@
     "longitude": -96.1556,
     "grid": "EN11we",
     "locationDesc": "US-NE",
-    "attempts": 1311,
-    "activations": 1299,
-    "qsos": 123626
+    "attempts": 1312,
+    "activations": 1300,
+    "qsos": 123739
   },
   {
     "reference": "US-4012",
@@ -853,9 +853,9 @@
     "longitude": -94.4833,
     "grid": "EM28sx",
     "locationDesc": "US-CA,US-CO,US-ID,US-KS,US-MO,US-NE,US-NV,US-OR,US-UT,US-WY",
-    "attempts": 2873,
-    "activations": 2792,
-    "qsos": 115256
+    "attempts": 2876,
+    "activations": 2795,
+    "qsos": 115356
   },
   {
     "reference": "US-4572",
@@ -864,9 +864,9 @@
     "longitude": -95.9246,
     "grid": "EN21ag",
     "locationDesc": "US-IA,US-ID,US-IL,US-IN,US-KS,US-KY,US-MO,US-MT,US-ND,US-NE,US-OH,US-OR,US-PA,US-SD,US-WA,US-WV",
-    "attempts": 4959,
-    "activations": 4829,
-    "qsos": 246377
+    "attempts": 4961,
+    "activations": 4831,
+    "qsos": 246427
   },
   {
     "reference": "US-4573",
@@ -875,9 +875,9 @@
     "longitude": -95.9653,
     "grid": "EN21ai",
     "locationDesc": "US-IA,US-IL,US-NE,US-UT,US-WY",
-    "attempts": 371,
-    "activations": 362,
-    "qsos": 18531
+    "attempts": 372,
+    "activations": 363,
+    "qsos": 18542
   },
   {
     "reference": "US-4576",
@@ -886,9 +886,9 @@
     "longitude": -96.4057,
     "grid": "EM19tj",
     "locationDesc": "US-ID,US-KS,US-MO,US-NE,US-OR,US-WA,US-WY",
-    "attempts": 3573,
-    "activations": 3435,
-    "qsos": 159684
+    "attempts": 3580,
+    "activations": 3442,
+    "qsos": 159942
   },
   {
     "reference": "US-4578",
@@ -1205,9 +1205,9 @@
     "longitude": -96.6873,
     "grid": "EN11pr",
     "locationDesc": "US-NE",
-    "attempts": 7,
-    "activations": 7,
-    "qsos": 250
+    "attempts": 8,
+    "activations": 8,
+    "qsos": 271
   },
   {
     "reference": "US-5664",
@@ -1898,9 +1898,9 @@
     "longitude": -97.5032,
     "grid": "EN11fm",
     "locationDesc": "US-NE",
-    "attempts": null,
-    "activations": null,
-    "qsos": null
+    "attempts": 1,
+    "activations": 1,
+    "qsos": 11
   },
   {
     "reference": "US-13205",
@@ -1909,8 +1909,8 @@
     "longitude": -97.6269,
     "grid": "EN11eh",
     "locationDesc": "US-NE",
-    "attempts": null,
-    "activations": null,
-    "qsos": null
+    "attempts": 0,
+    "activations": 0,
+    "qsos": 0
   }
 ]
